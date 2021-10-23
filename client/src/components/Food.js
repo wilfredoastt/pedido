@@ -46,7 +46,7 @@ function Food({
 	const drawer = (
 		<div>
 			<Toolbar style={{ backgroundColor: '#eeeeee' }}>
-				<Typography variant="h6">Tipos de Platos</Typography>
+				<Typography>Tipos de Platos</Typography>
 			</Toolbar>
 			<Divider />
 			<List>

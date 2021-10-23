@@ -80,7 +80,7 @@ const ButtonWhatsapp = ({ food_type_selected, portions_selected }) => {
 		<Paper
 			variant="outlined"
 			elevation={3}
-			sx={{ backgroundColor: green['100'], padding: 2 }}
+			sx={{ backgroundColor: '#FFF', padding: 2 }}
 		>
 			<Typography>{'Precio total: Bs. ' + calcularPriceTotal()}</Typography>
 			<Button
